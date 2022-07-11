@@ -1,0 +1,28 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: hsl(0, 6%, 81%);
+}
+.Contact li {
+  list-style-type: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+.Contact .fa-solid {
+  margin: 0 10px;
+}
+
+.Contact .fa-heart {
+  color: hsl(180, 1%, 80%);
+}
+
+.Contact .fav {
+  color: hsl(0, 37%, 58%);
+}
+
+.Contact .fa-trash-can {
+  color: hsl(189, 30%, 73%);
+}

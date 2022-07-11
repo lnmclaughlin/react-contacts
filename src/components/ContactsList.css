@@ -1,0 +1,20 @@
+.ContactsList header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(180, 100%, 100%);
+}
+
+.ContactsList .contacts-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ContactsList ul {
+  width: 50vw;
+  border: 5px solid hsl(175, 99%, 32%);
+  background-color: hsl(214, 100%, 13%);
+}
